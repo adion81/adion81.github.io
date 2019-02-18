@@ -111,8 +111,10 @@ function moveone(id, partial){
     }
     console.log(id);
 }
-function popup(partial){
-
+function popupOne(id,partial){
+        if(partial === 'work'){
+            id.classList.toggle('')
+        }
         document.getElementById('work-modal').style.display = 'block';
         document.getElementById(`${partial}`).style.display = 'block';
 }

@@ -179,7 +179,7 @@ li:hover {
     #menu{
         z-index: 500;
         position: fixed;
-        top: 60vh;
+        top: 100px;
         width: 27vw;
         left: 1%;
         font-size: 150%;
@@ -328,7 +328,7 @@ li:hover {
         grid-template-columns: 70% 25% 70%;
         grid-template-rows: 50% 50%;
         width: 20%;
-        margin-top: 20%;
+        margin-top: 5%;
         margin-left: 60%;
 
     }
@@ -351,10 +351,22 @@ li:hover {
         top: 2vh;
         left: 1vh;
         width: 70vw;
-        height: 80vh;
+        height: 50vh;
         background-color: rgba(0, 0, 40, 0.9);
         z-index: 4000;
         transition: 2s;   
+    }
+    .work{
+        margin-top: 80%;
+        transition: .5s;
+    }
+    .lighting{
+        margin-top: 70%;
+        transition: .5s;
+    }
+    .education{
+        margin-top: 75%;
+        transition: .5s;
     }
     #current-picture{
         width: 95%;
