@@ -111,12 +111,26 @@ function moveone(id, partial){
     }
     console.log(id);
 }
-function popupOne(id,partial){
-        if(partial === 'work'){
-            id.classList.toggle('')
-        }
+var workCount = 0;
+function popup(id,partial){
+    workCount ++;
+    if(partial === 'work'){
+        id.classList.toggle('work');
+    }
+    if(partial === 'education'){
+        id.classList.toggle('education');
+    }
+    if(partial === 'lighting'){
+        id.classList.toggle('lighting');
+    }
+    else if(workCount % 2 === 1){
         document.getElementById('work-modal').style.display = 'block';
         document.getElementById(`${partial}`).style.display = 'block';
+    }
+    else if(workCount % 2 === 0){
+        document.getElementById('work-modal').style.display = 'none';
+        document.getElementById(`${partial}`).style.display = 'none';
+    }
 }
 function closeup(){
     document.getElementById('work-modal').style.display ='none';
