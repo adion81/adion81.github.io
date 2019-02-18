@@ -349,27 +349,32 @@ li:hover {
         position: absolute;
         color: white;
         top: 2vh;
-        left: 1vh;
-        width: 70vw;
-        height: 50vh;
+        left: 3vh;
+        width:95vw;
+        height: 80vh;
         background-color: rgba(0, 0, 40, 0.9);
         z-index: 4000;
         transition: 2s;   
     }
-    .work{
-        margin-top: 80%;
-        transition: .5s;
+
+    .click{
+        cursor: pointer;
+        display: inline-block;
     }
-    .lighting{
-        margin-top: 70%;
-        transition: .5s;
+    .info{
+        width: 70%;
+        margin: 5% auto;
+        text-align: center;
     }
-    .education{
-        margin-top: 75%;
-        transition: .5s;
+    .actions{
+        width: 70%;
+        margin: 5% auto;
+        text-align: center;
     }
     #current-picture{
         width: 95%;
+        max-height: 50%;
+        overflow-y: scroll;
         display: block;
         margin: 2% auto;
     }
