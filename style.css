@@ -368,7 +368,7 @@ li:hover {
     }
     .actions{
         width: 70%;
-        margin: 5% auto;
+        margin: 1% auto;
         text-align: center;
     }
     #current-picture{
@@ -377,6 +377,12 @@ li:hover {
         overflow-y: scroll;
         display: block;
         margin: 2% auto;
+    }
+    .experience{
+        width: 90%;
+        margin: 0 auto;
+        height: 400px;
+        overflow-y: scroll;
     }
     #footer{
         width: 100vw;
@@ -422,7 +428,7 @@ li:hover {
         width: 45px;
     }
     #menu{
-        top: 400px;
+        top: 100px;
         width: 30vw;
     }
     li{
@@ -434,6 +440,12 @@ li:hover {
     }
     #exps{
         background-position: bottom;
+    }
+    .info{
+        width: 90%;
+    }
+    .experience{
+        height: 500px;
     }
 
 }
@@ -461,11 +473,13 @@ li:hover {
     }
     #menu{
         width: 20vw;
-        top: 500px;
         font-size: 100%;
     }
     #skill-modal{
         width: 50vw;
+    }
+    .work-hex{
+        margin-top: 0%;
     }
 }
 /* XL Devices */
@@ -500,10 +514,30 @@ li:hover {
         height: 550px;
         overflow-y: scroll;
     }
+    .work-hex{
+        width: 12%;
+        margin-left: 70%;
+    }
+    #work-modal{
+        font-size: 125%;
+    }
+    #current-picture{
+        width: 50%;
+    }
+    #lighting-pictures{
+        height: 900px;
+        overflow-y: scroll;
+    }
+    .actions{
+        margin: 1% auto 0 auto;
+    }
 
 }
 /* XXL Devices */
 @media (min-width: 1440px){
+    img#profile-pic{
+        height: 300px;
+    }
     .change .bar3{
         -webkit-transform: rotate(70deg) translate(-50%,-335%);
         transform: rotate(70deg) translate(-20%,-220%);
