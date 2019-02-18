@@ -130,6 +130,7 @@ li:hover {
 
 .hex img{
     width: 100%;
+    cursor: pointer;
 }
 .out-snap{
     width: 100%;
@@ -334,6 +335,7 @@ li:hover {
     }
     .work-hex img{
         width: 100%;
+        cursor: pointer;
     }
     .work-1{
         grid-column: 1 / span 2;
