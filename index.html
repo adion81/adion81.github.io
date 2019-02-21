@@ -31,7 +31,9 @@
         <div class="out-snap">
             <div id="hero" class="in-snap">
 
-                <img id="profile-pic" src="./images/adrienProfile.png" alt="Adrien">
+                <div>
+                    <img id="profile-pic" src="./images/adrienProfile.png" alt="Adrien">
+                </div>
                 <canvas id="home"></canvas>
             </div><!--  Ends Home -->
             <div id="skills" class="in-snap">
@@ -163,8 +165,57 @@
             </div><!--  Ends Technologies -->
             <div id="projects" class="in-snap">
                 <h2 id="project">Projects</h2>
-                <div class="hex">
-                    <img src="./images/Skillet.svg" alt="HTML 5">
+                <div id="project-modal" style="display: none;">
+                    <div id="skillet" style="display: none;">
+                        <div class="actions">
+                            <p class="click flash" onclick="closeproject()">EXIT</p>
+                        </div>
+                        <h3>Skillet</h3>
+                        <img src="./images/project-skillet.png" alt="skillet">
+                        <ul>
+                            <li>4 person project; Built in Python/Django</li>
+                            <li>Keeps track of items in pantry and expiration dates</li>
+                            <li>Notifies you when something goes bad</li>
+                            <li>Designed the front-end using Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div id="roadtrip" style="display: none;">
+                        <div class="actions">
+                            <p class="click flash" onclick="closeproject()">EXIT</p>
+                        </div>
+                        <h3><a href="http://18.218.157.61">Road Trip</a></h3>
+                        <img src="./images/project-roadtrip.jpg" alt="roadtrip">
+                        <ul>
+                            <li>Solo project; Built in the M.E.A.N. stack</li>
+                            <li>A game inspired by the Oregon Trail but modified to be a Spring Break like trip.</li>
+                            <li>Player must get from Boston to Miami Beach without running out of fuel, food, or a road based calmity...like dying</li>
+                        </ul>
+
+                    </div>
+                    <div id="galleazza" style="display: none;">
+                        <div class="actions">
+                            <p class="click flash" onclick="closeproject()">EXIT</p>
+                        </div>
+                        <h3>Le Galleazza</h3>
+                        <img src="./images/project-galleass.png" alt="Galleazza">
+                        <ul>
+                            <li>2 person project: Built in C#/ASP.NET</li>
+                            <li>Simulates a merchant ship in the late 1700s</li>
+                            <li>Built the Database and Back-End C#</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="project-hex">
+                    <div class="project-1">
+                        <img onclick="popproject(this, 'skillet')" src="./images/Skillet.svg" alt="HTML 5">
+                    </div>
+                    <div class="project-2">
+                        <img onclick="popproject(this, 'galleazza')" src="./images/galleazza.svg" alt="Le Galleazza">
+                    </div>
+                    <div onclick="popproject(this, 'roadtrip')" class="project-3">
+                        <img src="./images/roadtrip.svg" alt="Road Trip">
+                    </div>
                 </div>
             </div><!--  Ends Projects -->
             <div id="exps" class="in-snap">
@@ -172,20 +223,23 @@
                 <div id="work-modal">
                     <div id="work" style="display: none;">
                         <div class="actions">
-                            <p class="click" onclick="closeup()">EXIT</p>
+                            <p class="click flash" onclick="closeup()">EXIT</p>
                         </div>
                         <div class="experience">
                             <div class="info">
                                 <h3 style="color: rgb(62, 117, 238);">Sound Investment AV</h3><br>
                                 <p>Lighting Designer & Video Technician</p>
                                 <p>2014 -2018</p>
-                                <p>Designed and installed temporary lighting and video rigs for live industry events, concerts, and weddings.  Consistently received excellent reviews from clients about performance on site and exceeded client expectations.</p>
+                                <p>Designed and installed temporary lighting and video rigs for live industry events,
+                                    concerts, and weddings. Consistently received excellent reviews from clients about
+                                    performance on site and exceeded client expectations.</p>
                             </div>
                             <div class="info">
                                 <h3 style="color: rgb(62, 117, 238);">Elysium Experience</h3><br>
                                 <p>Freelance Lighting Design & Consultant</p>
                                 <p>2013 - Present</p>
-                                <p>Worked with ownership on establishing best practices for technical production in lighting and video.  Won 3 awards for a Lego Star Wars show.</p>
+                                <p>Worked with ownership on establishing best practices for technical production in
+                                    lighting and video. Won 3 awards for a Lego Star Wars show.</p>
                                 <h6>Best Entertainment 2017 | ILEA Michigan Epic Awards</h6>
                                 <h6>Best Technical Production 2017 | ILEA Michigan Epic Awards</h6>
                                 <h6>Best Corporate Event 2017 | ILEA Michigan Epic Awards</h6>
@@ -194,7 +248,7 @@
                     </div>
                     <div id="education" style="display: none;">
                         <div class="actions">
-                            <p class="click" onclick="closeup()">EXIT</p>
+                            <p class="click flash" onclick="closeup()">EXIT</p>
                         </div>
                         <div class="experience">
                             <div class="info">
@@ -216,8 +270,9 @@
                     </div>
                     <div id="lighting" style="display: none;">
                         <div class="actions">
-                            <p class="click" onclick="change('prev')"> < | </p>
-                            <p class="click" onclick="closeup()">EXIT</p>
+                            <p class="click" onclick="change('prev')">
+                                < | </p> <p class="click flash" onclick="closeup()">EXIT
+                            </p>
                             <p class="click" onclick="change('next')"> | > </p>
                         </div>
                         <div id="lighting-pictures">

@@ -134,3 +134,13 @@ function closeup(){
     document.getElementById('education').style.display = 'none';
 
 }
+function popproject(id, partial){
+    document.getElementById('project-modal').style.display = 'block';
+    document.getElementById(`${partial}`).style.display = 'block';
+}
+function closeproject(){
+    document.getElementById('project-modal').style.display ='none';
+    document.getElementById('skillet').style.display = 'none';
+    document.getElementById('roadtrip').style.display = 'none';
+    document.getElementById('galleazza').style.display = 'none';
+}
