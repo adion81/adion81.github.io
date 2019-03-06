@@ -32,9 +32,17 @@
             <div id="hero" class="in-snap">
 
                 <div>
-                    <img id="profile-pic" src="./images/adrienProfile.png" alt="Adrien">
+                    <img id="profile-pic" onclick="bio()"src="./images/adrienProfile.png" alt="Adrien">
                 </div>
                 <canvas id="home"></canvas>
+                <div id="bio" style="display: none;">
+                    <button onclick="exitBio()">EXIT</button>
+                    <h4 id="bioName"><strong>Name:</strong> Adrien Dion</h4>
+                    <h4 id="bioLocation"><strong>Location:</strong> Chicago, IL</h4>
+                    <h3>About Me:</h4>
+                    <p>I discovered my desire for coding after taking online courses. I then followed my passion for learning more languages, methods, and frameworks by working with people from Coding Dojo.  I'm constantly growing as a full stack and UI/UX developer, and love collaborating with others to find the most efficient solutuion.</p>
+
+                </div>
             </div><!--  Ends Home -->
             <div id="skills" class="in-snap">
                 <h2 id="tech">Technologies/Skills</h2>
@@ -43,81 +51,97 @@
                         <h3>HTML</h3>
                         <p>&#9733 &#9733 &#9733 &#9733 &#9734</p>
                         <img src="./images/htmlCode.png" alt="HTML Code">
+                        <button onclick="closeModal('html')" class="mobile">EXIT</button>
                     </div>
                     <div id="css" class="modal" style="display: none">
                         <h3>CSS</h3>
                         <p>&#9733 &#9733 &#9733 &#9733 &#9734</p>
                         <img src="./images/cssCode.png" alt="CSS Code">
+                        <button onclick="closeModal('css')" class="mobile">EXIT</button>
                     </div>
                     <div id="javascript" class="modal" style="display: none">
                         <h3>JavaScript</h3>
                         <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
                         <img src="./images/javascriptCode.png" alt="JavaScript Code">
+                        <button onclick="closeModal('javascript')" class="mobile">EXIT</button>
                     </div>
                     <div id="angular" class="modal" style="display: none">
                         <h3>Angular</h3>
                         <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
                         <img src="./images/angularCode.png" alt="Angular Code">
+                        <button onclick="closeModal('angular')" class="mobile">EXIT</button>
                     </div>
                     <div id="node" class="modal" style="display: none">
                         <h3>NodeJS</h3>
                         <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
                         <img src="./images/nodejsCode.png" alt="Node JS Code">
+                        <button onclick="closeModal('node')" class="mobile">EXIT</button>
                     </div>
                     <div id="express" class="modal" style="display: none">
                         <h3>ExpressJS</h3>
                         <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
                         <img src="./images/expressjsCode.png" alt="Express JS Code">
+                        <button onclick="closeModal('express')" class="mobile">EXIT</button>
                     </div>
                     <div id="mongo" class="modal" style="display: none">
                         <h3>MongoDB</h3>
                         <p>&#9733 &#9733 &#9733 &#9733 &#9734</p>
                         <img src="./images/mongoCode.png" alt="MongoDB Code">
+                        <button onclick="closeModal('mongo')" class="mobile">EXIT</button>
                     </div>
                     <div id="python" class="modal" style="display: none">
                         <h3>Python</h3>
                         <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
                         <img src="./images/pythonCode.png" alt="Python Code">
+                        <button onclick="closeModal('python')" class="mobile">EXIT</button>
                     </div>
                     <div id="django" class="modal" style="display: none">
                         <h3>Django</h3>
                         <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
                         <img src="./images/djangoCode.png" alt="Django Code">
+                        <button onclick="closeModal('django')" class="mobile">EXIT</button>
                     </div>
                     <div id="bootstrap" class="modal" style="display: none">
                         <h3>Bootstrap</h3>
                         <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
                         <img src="./images/bootstrapCode.png" alt="Bootstrap Code">
+                        <button onclick="closeModal('bootstrap')" class="mobile">EXIT</button>
                     </div>
                     <div id="jquery" class="modal" style="display: none">
                         <h3>jQuery</h3>
                         <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
                         <img src="./images/jqueryCode.png" alt="jQuery Code">
+                        <button onclick="closeModal('jquery')" class="mobile">EXIT</button>
                     </div>
                     <div id="mysql" class="modal" style="display: none">
                         <h3>MySQL</h3>
                         <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
                         <img src="./images/mysqlCode.png" alt="MySQL Code">
+                        <button onclick="closeModal('mysql')" class="mobile">EXIT</button>
                     </div>
                     <div id="csharp" class="modal" style="display: none">
                         <h3>C #</h3>
                         <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
                         <img src="./images/csharpCode.png" alt="C sharp">
+                        <button onclick="closeModal('csharp')" class="mobile">EXIT</button>
                     </div>
                     <div id="netcore" class="modal" style="display: none">
                         <h3>Asp.NET</h3>
                         <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
                         <img src="./images/netcoreCode.png" alt="Asp.NET">
+                        <button onclick="closeModal('netcore')" class="mobile">EXIT</button>
                     </div>
                     <div id="aws" class="modal" style="display: none">
                         <h3>AWS</h3>
                         <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
                         <img src="./images/awsCode.png" alt="AWS Code">
+                        <button onclick="closeModal('aws')" class="mobile">EXIT</button>
                     </div>
                     <div id="github" class="modal" style="display: none">
                         <h3>Github</h3>
                         <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
                         <img src="./images/githubCode.png" alt="Github Code">
+                        <button onclick="closeModal('github')" class="mobile">EXIT</button>
                     </div>
                 </div>
                 <div class="content">

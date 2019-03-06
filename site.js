@@ -33,7 +33,11 @@ function hamburger(x) {
     }
     
 }
-
+function closeModal(partial){
+    document.getElementById('skill-modal').style.display = "none";
+    document.getElementById(`${partial}`).style.display = "none";
+    modalCount ++;
+}
 function bookmark(address){
     var goTo = document.getElementById(address);
     if(address == 'footer'){
@@ -143,4 +147,10 @@ function closeproject(){
     document.getElementById('skillet').style.display = 'none';
     document.getElementById('roadtrip').style.display = 'none';
     document.getElementById('galleazza').style.display = 'none';
+}
+function bio(){
+    document.getElementById('bio').style.display = 'grid';
+}
+function exitBio(){
+    document.getElementById('bio').style.display = 'none';
 }
