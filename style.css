@@ -38,12 +38,12 @@ canvas{
 h1{
     position: relative;
     display: inline-block;
-    top: 23%;
+    top: 15%;
     left: -100%;
     padding: 1%;
     font-weight: bolder;
     color: #3e75ee;
-    font-size: 270%;
+    font-size: 200%;
     margin-left: 0 0 0 70%;
     visibility: visible;
     transition: 1s;
@@ -56,7 +56,7 @@ h1 span{
     width: 30%;
     position: relative;
     display: inline-block;
-    top: 1vh;
+    top: 1%;
     cursor: pointer;
     min-height: 5vh;
     padding: 0 1% 0 1%;
@@ -91,7 +91,7 @@ h1 span{
 #menu{
     z-index: 500;
     position: fixed;
-    top: 15vh;
+    top: 130px;
     width: 40%;
     left: 1%;
     visibility: hidden;
