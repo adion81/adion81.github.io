@@ -152,7 +152,7 @@ img#profile-pic{
     display: grid;
     margin-top: 10%;
     margin-left: 35%;
-    width: 40%;
+    width: 35%;
     grid-template-columns: 40% 15% 25% 15% 25% 15% 25% 15% 25% 15% 40%;
     grid-template-rows: 50% 50%;
 }
@@ -187,7 +187,6 @@ li:hover {
     z-index: 700;
     grid-column: 2 / span 3;
     grid-row: 2;
-    margin-top: 12%;
 }
 .item-5{
     z-index: 600;
@@ -199,7 +198,7 @@ li:hover {
     z-index: 500;
     grid-column: 4 / span 3;
     grid-row: 2;
-    margin-top: -27%;
+    margin-top: -40%;
 }
 
 .hex img{
