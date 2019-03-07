@@ -12,6 +12,9 @@
     font-family: Operator-Mono;
     list-style-type: none;
 }
+body#project-modal, body#skill-modal, body#work-modal{
+    overflow: visible;
+}
 header{
     z-index: 0;
     position: relative;
