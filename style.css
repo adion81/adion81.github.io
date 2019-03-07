@@ -21,13 +21,13 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 80px;
     background: rgb(44, 42, 42);
     padding: .5%;
 }
 main{
     position: fixed;
-    top: 100px;
+    top: 80px;
     width: 100%;
 }
 #hero{
@@ -56,7 +56,7 @@ h1 span{
 }
 .nav-menu{
     z-index:200;
-    width: 30%;
+    width: 20%;
     position: relative;
     display: inline-block;
     top: 5%;
@@ -78,18 +78,18 @@ h1 span{
 }
 .change .bar1{
     -webkit-transform: rotate(-70deg) translate(-35%,5%);
-    transform: rotate(-70deg) translate(-40%,-10%);
-    width: 50px;
+    transform: rotate(-70deg) translate(-36%,-40%);
+    width: 43px;
     margin-bottom: 1%;
 }
 .change .bar2{
-    width: 20px;
+    width: 18px;
     margin-top: 15%;
 }
 .change .bar3{
     -webkit-transform: rotate(70deg) translate(-50%,50%);
-    transform: rotate(70deg) translate(-30%,-300%);
-    width: 50px;
+    transform: rotate(70deg) translate(-30%,-220%);
+    width: 43px;
 }
 #menu{
     z-index: 500;
