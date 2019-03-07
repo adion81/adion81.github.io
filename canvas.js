@@ -99,7 +99,7 @@ function loop() {
 
     // Draw over the whole canvas to create the trail effect
     ctx.fillStyle = 'rgba(0, 0, 40, .1)';
-    ctx.fillRect(0, 0, sizeW, sizeH);
+    ctx.fillRect(0, 0, sizeW * scale, sizeH * scale);
     hexes.splice(0,1);
     // for(var y = 0; y < 3; y++){
     //     move();
