@@ -225,9 +225,9 @@ li:hover {
 }
 #skill-modal{
     display: none;
-    position: relative;
+    position: fixed;
     color: white;
-    top: 2vh;
+    top: 100px;
     left: 3vh;
     width: 90%;
     height: 80%;
@@ -279,9 +279,9 @@ li:hover {
 }
 #project-modal{
     display: none;
-    position: absolute;
+    position: fixed;
     color: white;
-    top: 2vh;
+    top: 100px;
     width:100vw;
     height: 80vh;
     background-color: rgba(0, 0, 40, 0.9);
@@ -348,9 +348,9 @@ li:hover {
 }
 #work-modal{
     display: none;
-    position: absolute;
+    position: fixed;
     color: white;
-    top: 2vh;
+    top: 100px;
     left: 3vh;
     width:95vw;
     height: 80vh;
