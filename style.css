@@ -135,7 +135,7 @@ img#profile-pic{
 #bio p{
     grid-column: 2;
     grid-row: 2 / span 4;
-    font-size: 90%;
+    font-size: 70%;
 }
 #bio h3{
     grid-column: 2;
@@ -477,7 +477,7 @@ li:hover {
         left: 10%;
         background-color: rgba(245, 245, 245, 0.781);
         width: 80%;
-        height: 50vh;
+        height: 60vh;
         text-align: center;
         z-index: 6000;
         grid-template-columns: 5% 45% 5% 45%;
@@ -866,7 +866,7 @@ li:hover {
     #bio{
         grid-template-columns: 10% 20% 20% 20% 20% 10%;
         grid-template-rows: 10% 20% 20% 20% 20% 10%;
-        top: 150px
+        top: 50px
     }
     #bio h3{
         grid-column: 2 /span 2;
@@ -928,7 +928,9 @@ li:hover {
     }
     #bio{
         width: 50%;
+        top: 100px;
         left: 25%;
+        height: 500px
     }
     #skill-modal{
         width: 70vw;
@@ -992,6 +994,9 @@ li:hover {
     #skill-modal img{
         width: 70%;
         
+    }
+    #bio{
+        font-size: 120%;
     }
 }
 @media (min-width: 1600px){
