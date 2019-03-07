@@ -37,6 +37,7 @@ canvas{
     background-color: rgb(0, 0, 40);
     -webkit-scrollbar: hidden;
     z-index: 4000;
+    width: 100%;
 }
 h1{
     position: relative;
