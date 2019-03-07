@@ -200,7 +200,6 @@ li:hover {
     grid-row: 2;
     margin-top: -40%;
 }
-
 .hex img{
     width: 100%;
     transition: .5s;
@@ -223,7 +222,7 @@ li:hover {
 }
 #skill-modal{
     display: none;
-    position: absolute;
+    position: relative;
     color: white;
     top: 2vh;
     left: 3vh;
@@ -253,9 +252,9 @@ li:hover {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 50% 50% 50%;
-    width: 50%;
+    width: 33%;
     margin-top: 5%;
-    margin-left: 25%;
+    margin-left: 33%;
 }
 .project-hex img{
     width: 100%;
