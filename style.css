@@ -272,7 +272,7 @@ li:hover {
 .project-3{
     grid-column: 1;
     grid-row: 2;
-    margin-top: -27%;
+    margin-top: 27%;
 }
 #project-modal{
     display: none;
