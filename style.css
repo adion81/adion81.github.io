@@ -233,7 +233,7 @@ li:hover {
     width: 90%;
     height: 80%;
     background-color: rgba(0, 0, 40, 0.9);
-    z-index: 4000;
+    z-index: 9000;
     transition: 2s;
 }
 .modal h3, .modal p, .modal{
@@ -288,7 +288,7 @@ li:hover {
     width:100vw;
     height: 80vh;
     background-color: rgba(0, 0, 40, 0.9);
-    z-index: 4000;
+    z-index: 9000;
     transition: 2s;   
 }
 #roadtrip{
@@ -359,7 +359,7 @@ li:hover {
     width:95vw;
     height: 80vh;
     background-color: rgba(0, 0, 40, 0.9);
-    z-index: 4000;
+    z-index: 9000;
     transition: 2s;   
 }
 

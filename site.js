@@ -36,6 +36,7 @@ function hamburger(x) {
 function closeModal(partial) {
     document.getElementById('skill-modal').style.display = "none";
     document.getElementById(`${partial}`).style.display = "none";
+    bookmark('skills');
     modalCount++;
 }
 function bookmark(address) {
@@ -136,6 +137,7 @@ function closeup() {
     document.getElementById('work').style.display = 'none';
     document.getElementById('lighting').style.display = 'none';
     document.getElementById('education').style.display = 'none';
+    bookmark('exp');
 
 }
 function popproject(id, partial) {
@@ -147,6 +149,7 @@ function closeproject() {
     document.getElementById('skillet').style.display = 'none';
     document.getElementById('roadtrip').style.display = 'none';
     document.getElementById('galleazza').style.display = 'none';
+    bookmark('projects');
 }
 function bio() {
     document.getElementById('bio').style.display = 'grid';
