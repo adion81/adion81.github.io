@@ -120,7 +120,7 @@ img#profile-pic{
     left: 10%;
     background-color: rgba(245, 245, 245, 0.781);
     width: 80%;
-    height: 50vh;
+    height: 400px;
     text-align: center;
     z-index: 6000;
     grid-template-columns: 5% 45% 5% 45%;
